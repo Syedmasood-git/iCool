@@ -17,6 +17,9 @@
     font-size: 40px;
     color: #0096FF;
 }
+.whatsapp-float>a>img{
+    width: 70px;
+}
 .comp-name>span{
     color: #000;
 }
@@ -28,11 +31,10 @@
 .navlinks{
     width: 100vw;
     display: flex;
-    align-items: center;
-    /* background-color:#0096FF; */
+    /* align-items: center; */
     background-color:#7393B3;
     margin-inline: auto;
-    /* padding: 10px; */
+    padding: 10px;
 }
 .navlinks>ul{
     display: flex;
@@ -40,6 +42,7 @@
     align-items: center;
     justify-content: space-around;
     margin-inline: auto;
+    margin-bottom: 0;
 }
 .navlinks>ul>li{
     list-style: none;
@@ -72,6 +75,7 @@
     display: block;
     /* flex-direction: column; */
     justify-content: center;
+    text-align: center;
 }
 .img-text{
     /* position: absolute;
@@ -108,6 +112,10 @@
     padding: 15px;
     cursor: pointer;
     background-color:#0057A6;
+    color: white;
+}
+.call:hover{
+    text-decoration: none;
     color: white;
 }
 .call-logo{
@@ -148,12 +156,213 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .location{
     background-color:#d1ddea;
-    padding-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 5%;
 }
 .loc{
     padding: 10px;
+}
+.whatsapp-float{
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+}
+.footer{
+    display: flex;
+}
+.foot-logo{
+    margin-inline: 5%;
+}
+.foot-logo>img{
+    width: 80%;
+    height: auto;
+}
+.contact-us{
+    text-align: center;
+    margin-inline: 20px;
+}
+.contact-us>p{
+    font-size: 30px;
+}
+.mailicon{
+    font-size: 30px;
+    margin-right: 20px;
+}
+.phone{
+    font-size: 24px;
+}
+.foot-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon {
+    display: none;
+  }
+
+
+@media only screen and (max-width: 1024px) { 
+    .logo-div>img{
+        margin-left: 10%;
+        width: 100px;
+        height: 100px;
+        margin-right: 10%;
+    }
+    .text{
+        width: 70vw;
+        left: 15%;
+    }
+    .img-para-div{
+        width: 50vw;
+    }
+    .contact-us{
+        margin: 0px;
+    }
+    .foot-logo{
+        margin-inline: 1%;
+    }
+} 
+@media only screen and (max-width:768px) {
+    .logo-div>img{
+        margin-inline: 40px;
+    }
+    .navlinks>ul>li>a{
+        font-size: 22px;
+    }
+    .comp-name{
+        font-size: 34px;
+    }
+    .img-para-div{
+        width: 70vw;
+    }
+    .cards{
+        min-width: 30%;
+        margin: 20px;
+    }
+    .img-text{
+        font-size: 44px;
+    }
+    .text{
+        width: 85vw;
+        left: 8%;
+    }
+    .call{
+        font-size: 21px;
+    }
+    .homepage>img{
+        height: 80vh;
+    }
+    .homepage{
+        height: 80vh;
+    }
+    .first-title{
+        font-size: 28px;
+    }
+    .second-title{
+        font-size: 18px;
+    }
+    .contact-us>p{
+        font-size: 24px;
+    }
+    .foot-logo>img{
+        width: 58%;
+    }
+    .icool{
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width:580px){
+    .logo-div>img{
+        margin-inline: 10px;
+    } 
+    .img-text{
+        font-size: 38px;
+    }
+    .img-para-div{
+        width: 70vw;
+    }
+    .img-para{
+        font-size: 17px;
+    }
+    .text{
+        width: 85vw;
+        left: 8%;
+    }
+    .icool{
+        font-size: 20px;
+    }
+    .foot-logo>img{
+        width: 100%;
+    }
+    .foot-logo{
+        width: 10%;
+    }
+    .foot-logo>p{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width:427px){
+    .logo-div>img{
+        margin-inline: 0;
+        width: 80px;
+        height: auto;
+    }
+    .comp-name{
+        font-size: 24px;
+    }
+    .comp-div>p{
+        font-size: 18px;
+    }
+    .navlinks>ul>li>a{
+        font-size: 16px;
+        margin-inline: 10px;
+    }
+    .navlinks>ul{
+        width: 90vw;
+    }
+    .img-text{
+        font-size: 32px;
+    }
+    .img-para-div{
+        width: 60vw;
+    }
+    .img-para{
+        font-size: 17px;
+    }
+    .text{
+        width: 85vw;
+        left: 8%;
+    }
+    .services {
+        width: 96vw;
+        margin-inline: 0%;
+    }
+    .first-title{
+        font-size: 24px;
+    }
+    .cards{
+        min-width: 50%;
+    }
+    .contact-us>p {
+        font-size: 16px;
+    }
+    .first-title {
+        font-size: 20px;
+    }
+    .call {
+        font-size: 18px;
+    }
+    .whatsapp-float>a>img{
+        width: 50px;
+    }
+}
+@media only screen and (max-width:366px){
+    .comp-name{
+        font-size: 21px;
+    }
 }
